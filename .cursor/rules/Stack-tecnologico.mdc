@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+Para desarrollar este proyecto utilizaremos como herramientas de desarrollo Next.js + Typescript para manejar mejor los errores y tener mejor trazabilidad.

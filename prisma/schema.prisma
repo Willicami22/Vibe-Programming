@@ -1,0 +1,25 @@
+// EcoTrack - Modelo de datos para historial de huella de carbono
+// Identificación por sesión (cookie) sin login
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Entry {
+  id             String   @id @default(cuid())
+  sessionId      String
+  date           String   // YYYY-MM-DD
+  rawText        String
+  totalCo2Kg     Float
+  activitiesJson String   // JSON: desglose por actividad
+  createdAt      DateTime @default(now())
+
+  @@index([sessionId])
+  @@index([date])
+  @@index([sessionId, date])
+}

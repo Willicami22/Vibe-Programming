@@ -1,0 +1,38 @@
+---
+alwaysApply: true
+---
+
+Para el desarrollo de código debes seguir buenas prácticas de ingeniería de software y estándares de calidad profesional.
+
+Principios de diseño:
+- Aplica siempre los principios SOLID cuando diseñes clases, módulos o componentes.
+- Evita duplicación de código siguiendo el principio DRY (Don't Repeat Yourself).
+- Mantén las soluciones simples aplicando KISS (Keep It Simple, Stupid).
+- No implementes funcionalidades innecesarias (YAGNI - You Aren’t Gonna Need It).
+
+Arquitectura y diseño:
+- Utiliza patrones de diseño cuando aporten claridad, reutilización o desacoplamiento (por ejemplo: Factory, Strategy, Observer, Dependency Injection, Repository, etc.).
+- Prioriza bajo acoplamiento y alta cohesión entre componentes.
+- Diseña código modular, reutilizable y fácil de extender.
+
+Calidad del código:
+- Escribe código limpio y legible siguiendo principios de Clean Code.
+- Usa nombres descriptivos para variables, funciones y clases.
+- Mantén funciones pequeñas y con una única responsabilidad.
+- Evita funciones o clases demasiado largas o complejas.
+
+Mantenibilidad:
+- Organiza el código en capas o módulos claros cuando aplique (por ejemplo: controller, service, repository).
+- Prefiere composición sobre herencia cuando sea posible.
+- Diseña pensando en la escalabilidad y mantenibilidad futura.
+
+Testing:
+- Escribe código que sea fácilmente testeable.
+- Cuando sea posible, sugiere pruebas unitarias siguiendo principios de TDD.
+
+Antes de proponer una solución:
+- Analiza si el diseño respeta SOLID.
+- Identifica posibles duplicaciones o problemas de acoplamiento.
+- Propón mejoras si el código puede simplificarse o hacerse más mantenible.
+
+Siempre prioriza claridad, mantenibilidad y calidad del código sobre soluciones rápidas o hacky.
