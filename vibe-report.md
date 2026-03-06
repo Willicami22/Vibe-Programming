@@ -29,7 +29,7 @@ También encontré dificultades con:
 
 La solución fue ser más **directivo en los prompts**: en lugar de "mejora el dashboard", especificar "agrega un gráfico de barras en el componente `StatsPanel` usando los datos del array `weeklyData`".
 
-![Despliegue en Replit](img/replit.png)
+![Despliegue en Replit](img/Replit.png)
 *Vista del entorno de desarrollo y despliegue en Replit*
 
 ---
